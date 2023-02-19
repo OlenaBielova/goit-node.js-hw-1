@@ -26,11 +26,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
             console.log("Unknown action");
     }
 }
-// invokeAction({action: "listContacts"});
-// invokeAction({ action: "getContactById", id: "1" });
-// invokeAction({ action: "addContact", name: "Paul", email: "paul@nmail.com", phone: "009-33-44"})
-// invokeAction({action:"removeContact", id: "2"});
-    
+   
 const arr = hideBin(process.argv);
 const { argv } = yargs(arr);
 
